@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET_NAME: testnew-pushkar1${{ github.ref_name }}
+  S3_BUCKET_NAME: nirma-ramesh-dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
