@@ -37,5 +37,5 @@ jobs:
 
       - name: Sync to S3
         run: |
-          aws s3 sync dist/ s3://$nirma-ramesh-dev
+          aws s3 sync dist/ s3://nirma-ramesh-dev
  --delete
